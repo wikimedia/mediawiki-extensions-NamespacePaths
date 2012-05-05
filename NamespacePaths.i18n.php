@@ -15,6 +15,13 @@ $messages['en'] = array(
 	'namespacepaths-desc' => 'Allows custom article paths to be mapped to namespaces; for example mapping pages like Help:Page to /help/Page instead of /wiki/Help:Page',
 );
 
+/** Arabic (العربية)
+ * @author DRIHEM
+ */
+$messages['ar'] = array(
+	'namespacepaths-desc' => 'يسمح بتعيين مسارات المقالات الخاصة إلى مساحات الإسماء، على سبيل المثال تعيين صفحات مثل Help:Page إلى /help/Page بدلا من /wiki/Help:Page',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
