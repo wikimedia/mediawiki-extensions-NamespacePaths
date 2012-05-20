@@ -92,6 +92,13 @@ $messages['ia'] = array(
 	'namespacepaths-desc' => 'Permitte personalisar le camminos de articulos e facer los corresponder a spatios de nomines del wiki. P.ex.: paginas como Adjuta:Pagina pote haber le cammino /adjuta/Pagina in loco de /wiki/Adjuta:Pagina.',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'namespacepaths-desc' => '名前空間に対応したカスタム記事パスを許可する（例：Help:Page から /wiki/Help:Page ではなく /help/Page に対応）',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
