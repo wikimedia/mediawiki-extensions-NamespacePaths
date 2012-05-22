@@ -15,6 +15,13 @@ $messages['en'] = array(
 	'namespacepaths-desc' => 'Allows custom article paths to be mapped to namespaces; for example mapping pages like Help:Page to /help/Page instead of /wiki/Help:Page',
 );
 
+/** Message documentation (Message documentation)
+ * @author Beta16
+ */
+$messages['qqq'] = array(
+	'namespacepaths-desc' => '{{desc}}',
+);
+
 /** Arabic (العربية)
  * @author DRIHEM
  */
@@ -90,6 +97,13 @@ $messages['hsb'] = array(
  */
 $messages['ia'] = array(
 	'namespacepaths-desc' => 'Permitte personalisar le camminos de articulos e facer los corresponder a spatios de nomines del wiki. P.ex.: paginas como Adjuta:Pagina pote haber le cammino /adjuta/Pagina in loco de /wiki/Adjuta:Pagina.',
+);
+
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'namespacepaths-desc' => 'Permette di mappare percorsi personalizzati ai namespace; per esempio si può mappare la pagina <tt>Aiuto:Pagina</tt> verso <tt>/aiuto/Pagina</tt> anziché <tt>/wiki/Aiuto:Pagina</tt>',
 );
 
 /** Japanese (日本語)
