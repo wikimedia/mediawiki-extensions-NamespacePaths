@@ -113,6 +113,13 @@ $messages['ja'] = array(
 	'namespacepaths-desc' => '名前空間に対応したカスタム記事パスを許可する（例：Help:Page から /wiki/Help:Page ではなく /help/Page に対応）',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'namespacepaths-desc' => '사용자 지정 문서 경로가 이름공간에 매핑하는 것을 허용; 예를 들어 도움말:문서와 같은 문서를 매핑할 때 /wiki/도움말:문서 대신 /도움말/문서',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
