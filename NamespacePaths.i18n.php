@@ -36,7 +36,7 @@ $messages['ast'] = array(
 	'namespacepaths-desc' => 'Permite casar caminos d\'artículu personalizaos con espacios de nomes de la wiki. P. ex.: casar páxines como "Ayuda:Páxina" con "/ayuda/Páxina" y non con "/wiki/Ayuda:Páxina".',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -50,7 +50,7 @@ $messages['de'] = array(
 	'namespacepaths-desc' => 'Ermöglicht die Erstellung benutzerdefinierter Pfade zu Seiten in anderen Namensräumen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -71,7 +71,7 @@ $messages['fr'] = array(
 	'namespacepaths-desc' => "Permet à des chemins d'article personnalisés d'être mis en correspondance avec les espaces de noms du wiki. Par ex.: Faire correspondre des pages comme Aide:Page à /aide/Page au lieu de /wiki/Aide:Page.",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -85,7 +85,7 @@ $messages['he'] = array(
 	'namespacepaths-desc' => 'אפשרות למפות נתיבי ערכים מותאמים אישית למרחבי שם של ויקי. למשל, למפות דפים כמו עזרה:דף לנתיב <span dir="ltr">/help/דף</span> במקום <span dir="ltr">/wiki/עזרה:דף</span>.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
