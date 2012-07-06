@@ -163,6 +163,13 @@ $messages['ru'] = array(
 	'namespacepaths-desc' => 'Позволяет настраивать пути к статьям для сопоставления пространствам имен вики. Пример: странице Help:Page сопоставляется /help/Page, а не/wiki/Help:Page.',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'namespacepaths-desc' => 'Nagpapahintulot ng pasadyang mga landas ng artikulo na imamapa sa mga puwang ng pangalan; halimbawa na ang pagmamapa ng mga pahinang katulad ng Tulong:Pahina upang maging /tulong/Pahina sa halip na /wiki/Tulong:Pahina',
+);
+
 /** Ukrainian (українська)
  * @author Vox
  */
