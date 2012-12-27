@@ -64,6 +64,13 @@ $messages['es'] = array(
 	'namespacepaths-desc' => 'Permite poner en correspondencia rutas personalizadas de artículo con los espacios de nombres del wiki. Por ejemplo: haciendo corresponder páginas como Help:Page en /help/Page en lugar de /wiki/Help:Page.',
 );
 
+/** Finnish (suomi)
+ * @author VezonThunder
+ */
+$messages['fi'] = array(
+	'namespacepaths-desc' => 'Mahdollistaa tiettyjen artikkeliosoitteiden määrittämisen nimiavaruuksille; esimerkiksi sivun kuten Ohje:Sivu määrittämisen osoitteeseen /ohje/Sivu osoitteen /wiki/Ohje:Sivu sijaan.',
+);
+
 /** French (français)
  * @author Gomoko
  */
