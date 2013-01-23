@@ -189,3 +189,10 @@ $messages['tl'] = array(
 $messages['uk'] = array(
 	'namespacepaths-desc' => 'Дозволяє налаштовувати шляхи до статей для зіставлення до просторів назв; приклад: сторінка Help:Page зіставляєтся до /help/Page, а не /wiki/Help:Page.',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'namespacepaths-desc' => '允许定制条目路径映射到命名空间；映射页面例如Help:Page到/help/Page而不是/wiki/Help:Page',
+);
