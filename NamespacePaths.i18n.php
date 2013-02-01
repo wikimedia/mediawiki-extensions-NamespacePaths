@@ -169,6 +169,13 @@ $messages['pms'] = array(
 	'namespacepaths-desc' => 'A përmët che ij përcors ëd le vos a sio butà an corëspondensa con jë spassi nominaj ëd la wiki. Për esempi: Fé corësponde dle pàgine com Agiut:Pàgina a/help/Pàgina nopà che /wiki/Agiut:Pàgina.',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'namespacepaths-desc' => 'Permette le percorse de le vôsce personalizzate de essere mappate a le namespace; pe esembie mappanne le pàggene cumme Help:Page sus a /help/Page invece de /wiki/Help:Page',
+);
+
 /** Russian (русский)
  * @author Ignatus
  */
