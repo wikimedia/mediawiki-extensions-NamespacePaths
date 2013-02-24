@@ -117,7 +117,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'namespacepaths-desc' => '名前空間に対応したカスタム記事パスを許可する（例：Help:Page から /wiki/Help:Page ではなく /help/Page に対応）',
+	'namespacepaths-desc' => '名前空間に対応したカスタム記事パスを許可する (例: Help:Page から /wiki/Help:Page ではなく /help/Page に対応)',
 );
 
 /** Korean (한국어)
