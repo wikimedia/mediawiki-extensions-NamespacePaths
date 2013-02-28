@@ -17,9 +17,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Beta16
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'namespacepaths-desc' => '{{desc}}',
+	'namespacepaths-desc' => '{{desc|name=Namespace Paths|url=http://www.mediawiki.org/wiki/Extension:NamespacePaths}}',
 );
 
 /** Arabic (العربية)
