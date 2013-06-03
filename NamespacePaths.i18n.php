@@ -142,7 +142,7 @@ $messages['mk'] = array(
 	'namespacepaths-desc' => 'Овозможува патеки на статии по ваш избор да се пресликаат во именски простори во викито. На пр.: Прелискување на страници како Help:Page to /help/Page наместо /wiki/Help:Page.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'namespacepaths-desc' => 'Tillater spesialtilpassede artikkelstier å mappes til navnerom på wikien. F. eks.: Mapping av sider som Hjelp:Side til /help/Side istedenfor /wiki/Hjelp:Side.',
