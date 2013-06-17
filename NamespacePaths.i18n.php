@@ -204,3 +204,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'namespacepaths-desc' => '允许定制条目路径映射到命名空间；映射页面例如Help:Page到/help/Page而不是/wiki/Help:Page',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'namespacepaths-desc' => '容許自訂條目路徑是映射至名字空間；如將Help:Page映射至/help/Page而非/wiki/Help:Page',
+);
