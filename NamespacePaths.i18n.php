@@ -125,7 +125,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'namespacepaths-desc' => '사용자 지정 문서 경로가 이름공간에 매핑하는 것을 허용; 예를 들어 도움말:문서와 같은 문서를 매핑할 때 /wiki/도움말:문서 대신 /도움말/문서',
+	'namespacepaths-desc' => '사용자 지정 문서 경로가 이름공간에 매핑할 수 있습니다. 예를 들어 도움말:문서와 같은 문서를 매핑할 때 /wiki/도움말:문서 대신 /도움말/문서',
 );
 
 /** Colognian (Ripoarisch)
