@@ -65,6 +65,13 @@ $messages['es'] = array(
 	'namespacepaths-desc' => 'Permite poner en correspondencia rutas personalizadas de artículo con los espacios de nombres del wiki. Por ejemplo: haciendo corresponder páginas como Help:Page en /help/Page en lugar de /wiki/Help:Page.',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'namespacepaths-desc' => 'اجازهٔ مسیرهای مقالات رسمی برای نقشه‌برداری شدن به فضای نام؛ برای مثال نقشه‌برداری صفحاتی مانند کمک:صفحه به/کمک/به‌جای صفحه/ویکی/کمک:صفحه',
+);
+
 /** Finnish (suomi)
  * @author VezonThunder
  */
