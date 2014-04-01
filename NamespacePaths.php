@@ -15,12 +15,13 @@ if ( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki packa
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'NamespacePaths',
-	'version' => '1.0',
+	'version' => '1.1.0',
 	'author' => array( '[http://danf.ca/mw/ Daniel Friesen]', '[http://redwerks.org/mediawiki/ Redwerks]' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NamespacePaths',
 	'descriptionmsg' => 'namespacepaths-desc',
 );
 
+$wgMessagesDirs['NamespacePaths'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['NamespacePaths'] = dirname( __FILE__ ) . '/NamespacePaths.i18n.php';
 
 $wgHooks['WebRequestPathInfoRouter'][] = 'efNamepacePathRouter';
