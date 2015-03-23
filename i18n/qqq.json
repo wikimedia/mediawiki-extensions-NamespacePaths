@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"namespacepaths-desc": "{{desc|name=Namespace Paths|url=http://www.mediawiki.org/wiki/Extension:NamespacePaths}}"
+	"namespacepaths-desc": "{{desc|name=Namespace Paths|url=https://www.mediawiki.org/wiki/Extension:NamespacePaths}}"
 }
