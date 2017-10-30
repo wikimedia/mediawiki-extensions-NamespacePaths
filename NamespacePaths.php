@@ -22,7 +22,6 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $wgMessagesDirs['NamespacePaths'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['NamespacePaths'] = dirname( __FILE__ ) . '/NamespacePaths.i18n.php';
 
 $wgHooks['WebRequestPathInfoRouter'][] = 'efNamepacePathRouter';
 $wgHooks['GetLocalURL::Article'][] = 'efNamepacePathsGetURL';
