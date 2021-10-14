@@ -12,6 +12,8 @@
 
 if ( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki package and cannot be run standalone." );
 
+use MediaWiki\MediaWikiServices;
+
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'NamespacePaths',
@@ -36,7 +38,9 @@ function efNamepacePathRouter( $router ) {
 }
 
 function efNamespacePathCallback( &$matches, $data ) {
-	$nstext = MWNamespace::getCanonicalName( intval( $data['ns'] ) );
+	$nstext = MediaWikiServices::getInstance()
+		->getNamespaceInfo()
+		->getCanonicalName( intval( $data['ns'] ) );
 	$matches['title'] = $nstext . ':' . $data['page_title'];
 }
 
