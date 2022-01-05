@@ -6,54 +6,19 @@
  * @ingroup Extensions
  * @author Daniel Friesen (http://danf.ca/mw/)
  * @copyright Copyright © 2010 – Daniel Friesen
- * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  * @link https://www.mediawiki.org/wiki/Extension:NamespacePaths Documentation
  */
-
-if ( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki package and cannot be run standalone." );
-
-use MediaWiki\MediaWikiServices;
-
-$wgExtensionCredits['other'][] = array(
-	'path' => __FILE__,
-	'name' => 'NamespacePaths',
-	'version' => '1.1.0',
-	'author' => array( '[http://danf.ca/mw/ Daniel Friesen]', '[http://redwerks.org/mediawiki/ Redwerks]' ),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:NamespacePaths',
-	'descriptionmsg' => 'namespacepaths-desc',
-);
-
-$wgMessagesDirs['NamespacePaths'] = __DIR__ . '/i18n';
-
-$wgHooks['WebRequestPathInfoRouter'][] = 'efNamepacePathRouter';
-$wgHooks['GetLocalURL::Article'][] = 'efNamepacePathsGetURL';
-
-function efNamepacePathRouter( $router ) {
-	global $wgNamespacePaths;
-	$router->add( $wgNamespacePaths,
-		array( 'data:page_title' => '$1', 'data:ns' => '$key' ),
-		array( 'callback' => 'efNamespacePathCallback' )
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'NamespacePaths' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['NamespacePaths'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the NamespacePaths extension. ' .
+		'Please use wfLoadExtension() instead, ' .
+		'see https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Extension_registration for more details.'
 	);
-	return true;
+	return;
+} else {
+	die( 'This version of the FooBar extension requires MediaWiki 1.35+' );
 }
-
-function efNamespacePathCallback( &$matches, $data ) {
-	$nstext = MediaWikiServices::getInstance()
-		->getNamespaceInfo()
-		->getCanonicalName( intval( $data['ns'] ) );
-	$matches['title'] = $nstext . ':' . $data['page_title'];
-}
-
-function efNamepacePathsGetURL( $title, &$url ) {
-	global $wgNamespacePaths;
-	// Ensure that the context of this url is one we'd do article path replacements in
-	$ns = $title->getNamespace();
-	if ( array_key_exists( $ns, $wgNamespacePaths ) ) {
-		$url = str_replace( '$1', wfUrlencode( $title->getDBkey() ), $wgNamespacePaths[$ns] );
-	}
-	return true;
-}
-
-/** Settings **/
-$wgNamespacePaths = array();
-
