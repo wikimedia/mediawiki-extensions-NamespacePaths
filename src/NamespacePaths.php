@@ -16,7 +16,7 @@ class NamespacePaths {
 	 * @param PathRouter $router
 	 * @return bool
 	 */
-	public static function onWebRequestPathInfoRouter( $router ) {
+	public static function onWebRequestPathInfoRouter( PathRouter $router ): bool {
 		global $wgNamespacePaths;
 		$router->add( $wgNamespacePaths,
 			[ 'data:page_title' => '$1', 'data:ns' => '$key' ],
@@ -30,7 +30,7 @@ class NamespacePaths {
 	 * @param array $data
 	 * @return void
 	 */
-	public static function onNamespacePathCallback( &$matches, $data ) {
+	public static function onNamespacePathCallback( array &$matches, array $data ): void {
 		$nstext = MediaWikiServices::getInstance()
 			->getNamespaceInfo()
 			->getCanonicalName( intval( $data['ns'] ) );
@@ -39,10 +39,10 @@ class NamespacePaths {
 
 	/**
 	 * @param Title $title
-	 * @param string $url
+	 * @param string &$url
 	 * @return bool
 	 */
-	public static function onGetLocalURLArticle( $title, &$url ) {
+	public static function onGetLocalURLArticle( Title $title, string &$url ): bool {
 		global $wgNamespacePaths;
 		// Ensure that the context of this url is one we'd do article path replacements in
 		$ns = $title->getNamespace();
