@@ -20,5 +20,5 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 	);
 	return;
 } else {
-	die( 'This version of the FooBar extension requires MediaWiki 1.35+' );
+	die( 'This version of the NamespacePaths extension requires MediaWiki 1.35+' );
 }
