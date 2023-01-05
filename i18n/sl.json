@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"namespacepaths-desc": "Omogoča preslikavo poti do člankov po meri v imenske prostore; npr. preslikavo strani, kot je Pomoč:Stran na /pomoč/Stran namesto /wiki/Pomoč:Stran."
+}
