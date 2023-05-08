@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"namespacepaths-desc": "Permet à des chemins d'article personnalisés d'être mis en correspondance avec les espaces de noms du wiki. Par ex.: Faire correspondre des pages comme Aide:Page à /aide/Page au lieu de /wiki/Aide:Page."
+	"namespacepaths-desc": "Permet à des chemins d’article personnalisés d’être mis en correspondance avec les espaces de noms du wiki ; par ex., faire correspondre des pages comme « Aide:Page » à « /aide/Page » au lieu de « /wiki/Aide:Page »."
 }
