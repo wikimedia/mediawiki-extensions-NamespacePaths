@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Justincheng12345"
+			"Justincheng12345",
+			"LNDDYL"
 		]
 	},
-	"namespacepaths-desc": "容許自訂條目路徑是映射至名字空間；如將Help:Page映射至/help/Page而非/wiki/Help:Page"
+	"namespacepaths-desc": "准許自訂條目路徑被映射至命名空間；如將 Help:Page 映射至 /help/Page 而非 /wiki/Help:Page"
 }
