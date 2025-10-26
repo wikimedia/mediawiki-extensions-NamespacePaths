@@ -10,6 +10,8 @@
  * @link https://www.mediawiki.org/wiki/Extension:NamespacePaths Documentation
  */
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Request\PathRouter;
+use MediaWiki\Title\Title;
 
 class NamespacePaths {
 	/**
