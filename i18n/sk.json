@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"namespacepaths-desc": "Umožňuje mapovať vlastné cesty článkov na menné priestory; napríklad mapovanie stránok ako Help:Page na /help/Page namiesto /wiki/Help:Page"
+}
